@@ -1,0 +1,34 @@
+gitとは
+ テキストのバージョン管理
+
+cd ~で移動して
+
+lsでフォルダ内のファイル表
+ls -laで隠しフォルダも表示
+
+pwdで居場所確認
+
+cdで↓まで移動
+C:\Users\Takuto Kashihara\ewait-workshop
+
+git initで初期化
+隠しフォルダに.gitフォルダができる
+ここからgitの履歴ができる
+
+vi sample.md
+aかiを押すと入力可能に
+
+esqを押す
+:wq　で編集終了
+
+git status　←ステータス確認
+
+git add .　←自分のフォルダの中身全てをadd
+
+git commit -m "first"　←addしたファイルをcommit
+
+git logでcommitのログが見れる
+
+git reset --hard HEAD~2 ←バージョン戻る
+
+git branch
